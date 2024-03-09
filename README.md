@@ -5,15 +5,15 @@
 [![Contributors](https://img.shields.io/github/contributors/Wh4I3-2/Wh4I3sCommands?color=ffa55a&style=for-the-badge)](https://github.com/Wh4I3-2/Wh4I3sCommands/graphs/contributors)
 
 ## Commands
-### help:
+### Help:
 `Tells you the description of a command.`
 `Syntax: help <Command|ALL>`
-### give: 
+### Give: 
 Gives you an amount of a specified item.
 Syntax: give <Name|ID|ALL> <Amount=1>
-### list: 
+### List: 
 List the Name and ID of an item or all items.
 Syntax: list <Name|ID|ALL>
-### credits: 
+### Credits: 
 Change credits.
 Syntax: credits <+|-|*|/|=> <Value=1>
