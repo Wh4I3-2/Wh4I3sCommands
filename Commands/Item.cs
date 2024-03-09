@@ -8,7 +8,7 @@ namespace Wh4I3sCommands.Commands
     {
         public string Command { get; set; } = "item";
         public string[] Abbreviate { get; set; } = new string[] { "itm" };
-        public string Description { get; set; } = "Adds, removes or sets an amount of an item. (Replace spaces in names with an underscore)\n\tSyntax: item <Add | Remove | Set> <Name | ID | ALL> <Amount=1>";
+        public string Description { get; set; } = "Adds, removes or sets an amount of an item. (Replace spaces in names with an underscore)\n\tSyntax: item [Add | Remove | Set] <Name | ID | ALL> <Amount=1>";
 
         public bool Execute(string[] args, out string reply)
         {
