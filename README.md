@@ -1,8 +1,8 @@
 # Wh4I3sCommands
-[![Version](https://img.shields.io/github/v/release/Wh4I3-2/Wh4I3sCommands?sort=semver&style=for-the-badge&color=6380ff&label=Version)](https://github.com/Wh4I3-2/Wh4I3sCommands/releases)
-[![Downloads](https://img.shields.io/github/downloads/Wh4I3-2/Wh4I3sCommands/total?color=85ff63&style=for-the-badge)](https://github.com/Wh4I3-2/Wh4I3sCommands)
-[![License](https://img.shields.io/github/license/Wh4I3-2/Wh4I3sCommands?color=ff6395&style=for-the-badge)](https://github.com/Wh4I3-2/Wh4I3sCommands/blob/master/LICENSE.txt)
-[![Contributors](https://img.shields.io/github/contributors/Wh4I3-2/Wh4I3sCommands?color=ffa55a&style=for-the-badge)](https://github.com/Wh4I3-2/Wh4I3sCommands/graphs/contributors)
+[![Version](https://img.shields.io/github/v/release/Wh4I3-2/Wh4I3sCommands?sort=semver&style=flat&labelColor=4e3e52&color=6fb0de&label=Version)](https://github.com/Wh4I3-2/Wh4I3sCommands/releases)
+[![Downloads](https://img.shields.io/github/downloads/Wh4I3-2/Wh4I3sCommands/total?style=flat&labelColor=4fd14f&color=d1af4f)](https://github.com/Wh4I3-2/Wh4I3sCommands)
+[![GitHub License](https://img.shields.io/github/license/Wh4I3-2/Wh4I3sCommands?style=flat&labelColor=4e3e52&color=d1af4f)](https://github.com/Wh4I3-2/Wh4I3sCommands/blob/master/LICENSE.txt)
+[![Contributors](https://img.shields.io/github/contributors/Wh4I3-2/Wh4I3sCommands?style=flat&labelColor=de6f9d&color=d1af4f)](https://github.com/Wh4I3-2/Wh4I3sCommands/graphs/contributors)
 
 ## Commands
 | Command | Abbreviation | Description | Syntax |
