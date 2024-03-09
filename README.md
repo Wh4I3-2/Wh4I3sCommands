@@ -11,15 +11,3 @@
 | give | Gives you an amount of a specified item | give <Name\|ID\|ALL> <Amount=1> |
 | list | List the Name and ID of an item or all Items | list <Name\|ID\|ALL> |
 | credits | Change credits | credits <+\|-\|*\|/\|=> <Value=1> |
-###  Help:
-- Tells you the description of a command.
-- Syntax: help <Command|ALL>
-### Give: 
-- Gives you an amount of a specified item.
-- Syntax: give <Name|ID|ALL> <Amount=1>
-### List: 
-- List the Name and ID of an item or all items.
-- Syntax: list <Name|ID|ALL>
-### Credits: 
-- Change credits.
-- Syntax: credits <+|-|*|/|=> <Value=1>
