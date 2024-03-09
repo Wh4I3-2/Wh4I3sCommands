@@ -352,7 +352,6 @@
     <Compile Include="Commands\List.cs" />
     <Compile Include="Commands\Give.cs" />
     <Compile Include="Config.cs" />
-    <Compile Include="EventHandlers.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
