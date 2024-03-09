@@ -350,7 +350,7 @@
     <Compile Include="Commands\Help.cs" />
     <Compile Include="Commands\Credits.cs" />
     <Compile Include="Commands\List.cs" />
-    <Compile Include="Commands\Give.cs" />
+    <Compile Include="Commands\Item.cs" />
     <Compile Include="Config.cs" />
     <Compile Include="Mod.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
