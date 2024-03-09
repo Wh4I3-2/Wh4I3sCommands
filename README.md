@@ -11,3 +11,9 @@
 | give | Gives you an amount of a specified item | give <Name\|ID\|ALL> <Amount=1> |
 | list | List the Name and ID of an item or all Items | list <Name\|ID\|ALL> |
 | credits | Change credits | credits <+\|-\|*\|/\|=> <Value=1> |
+
+## Installation
+**Requires [Outpath-Modding](https://github.com/MrAfitol/Outpath-Modding/) loader**
+### Windows
+1. Download the Wh4I3sCommands.dll file from a release of your choosing [here](https://github.com/Wh4I3-2/Wh4I3sCommands/releases) (Latest is recommended)
+2. Move the .dll file to the mods folder (eg: *\Steam\steamapps\common\Outpath\OutpathModding\Mods\)
