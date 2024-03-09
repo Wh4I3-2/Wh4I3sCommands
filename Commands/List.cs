@@ -7,7 +7,7 @@ namespace Wh4I3sCommands.Commands
     {
         public string Command { get; set; } = "list";
         public string[] Abbreviate { get; set; } = new string[] { "lst" };
-        public string Description { get; set; } = "List the Name and ID of an item or all items.\n\tSyntax: list <Name | ID | ALL>";
+        public string Description { get; set; } = "List the Name and ID of an item or all items.\n\t\tlist <Name | ID | ALL>";
 
         public bool Execute(string[] args, out string reply)
         {
@@ -20,20 +20,20 @@ namespace Wh4I3sCommands.Commands
                 reply = GetAll();
                 return true;
             }
-            if (int.Parse(args[0]).ToString() == args[0]) {
-                reply = GetSpecificID(int.Parse(args[0]));
+            if (int.TryParse(args[0], out int id) == false)
+            {
+                reply = GetSpecificName(args[0]);
                 if (reply == "")
                 {
-                    reply = "Invalid ID!";
+                    reply = "Invalid Name!";
                     return false;
                 }
                 return true;
             }
-            
-            reply = GetSpecificName(args[0]);
+            reply = GetSpecificID(id);
             if (reply == "")
             {
-                reply = "Invalid Name!";
+                reply = "Invalid ID!";
                 return false;
             }
             return true;
