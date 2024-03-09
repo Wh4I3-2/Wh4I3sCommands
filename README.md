@@ -8,9 +8,9 @@
 | Command | Abbreviation | Description | Syntax |
 | ------- | ------------ | ----------- | ------ |
 | help | hlp | Tells you the description of a command | help <Command \| ALL> |
-| give | giv | Gives you an amount of a specified item (Replace spaces in names with an underscore) | give <Name \| ID \| ALL> <Amount=1> |
+| item | itm | Adds, removes or sets an amount of an item (Replace spaces in names with an underscore) | item [Add | Remove | Set] <Name \| ID \| ALL> <Amount=1> |
 | list | lst | List the Name and ID of an item or all Items | list <Name \| ID \| ALL> |
-| credits | crdt | Change credits | credits <+ \| - \| * \| / \| => <Value=1> |
+| credits | crdt | Change credits | credits [+ \| - \| * \| / \| =] <Value=1> |
 
 ## Installation
 **Requires having installed [Outpath-Modding](https://github.com/MrAfitol/Outpath-Modding/)**
