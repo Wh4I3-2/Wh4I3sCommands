@@ -6,7 +6,7 @@
 
 ## Commands
 help: 
-Tells you the description of a command.
+`Tells you the description of a command.`
 Syntax: help <Command|ALL>
 ### give: 
 Gives you an amount of a specified item.
