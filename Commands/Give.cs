@@ -1,4 +1,6 @@
-﻿using Outpath_Modding.GameConsole.Components;
+﻿using Outpath_Modding.GameConsole;
+using Outpath_Modding.GameConsole.Components;
+using System;
 
 namespace Wh4I3sCommands.Commands
 {
@@ -16,8 +18,9 @@ namespace Wh4I3sCommands.Commands
                 return false;
             }
             int amount = 1;
-            if (args.Length > 1) {
-                amount = int.Parse(args[1]);
+            if (args.Length > 1)
+            {
+                amount = int.Parse(args[1].Substring(0, args[1].Length - 1)) * (1 + 999 * Convert.ToInt32(args[1].ToLower().EndsWith("k"))) * (1 + 999999 * Convert.ToInt32(args[1].ToLower().EndsWith("m"))) * (1 + 999999999 * Convert.ToInt32(args[1].ToLower().EndsWith("b")));
             }
             if (args[0] == "ALL")
             {
@@ -25,9 +28,15 @@ namespace Wh4I3sCommands.Commands
                 reply = $"Added {amount} of every item.";
                 return true;
             }
-            if (int.Parse(args[0]).ToString() == args[0])
+            if (int.TryParse(args[0], out int id) == false)
             {
-                ItemInfo _item = AddID(int.Parse(args[0]), amount);
+                ItemInfo item = AddName(args[0], amount);
+                reply = $"Added {amount} of item: {item.itemName}";
+                return true;
+            }
+            else
+            {
+                ItemInfo _item = AddID(id, amount);
                 if (_item == null)
                 {
                     reply = "Invalid ID!";
@@ -36,15 +45,6 @@ namespace Wh4I3sCommands.Commands
                 reply = $"Added {amount} of item: {_item.itemName}";
                 return true;
             }
-
-            ItemInfo item = AddName(args[0], amount);
-            if (item == null)
-            {
-                reply = "Invalid Name!";
-                return false;
-            }
-            reply = $"Added {amount} of item: {item.itemName}";
-            return true;
         }
 
         private void AddAll(int amount)
@@ -67,7 +67,7 @@ namespace Wh4I3sCommands.Commands
         {
             for (int id = 0; id < ItemList.instance.itemList.Length; id++)
             {
-                if (ItemList.instance.itemList[id].itemName.ToLower() == name.ToLower())
+                if (ItemList.instance.itemList[id].itemName.ToLower().Replace(" ", "_") == name.ToLower())
                 {
                     InventoryManager.instance.AddItemToInv(ItemList.instance.itemList[id], amount);
                     return ItemList.instance.itemList[id];

@@ -20,7 +20,7 @@ namespace Wh4I3sCommands
         public override string Author { get; set; } = "Wh4I3";
         public override string Name { get; set; } = "Wh4I3's Commands";
         public override string Description { get; set; } = "A set of helpful commands for debugging and/or messing around.";
-        public override Version Version { get; set; } = new Version(0, 0, 1);
+        public override Version Version { get; set; } = new Version(0, 0, 2);
 
         public static Mod Instance { get; private set; }
 
