@@ -6,7 +6,7 @@
 
 ## Commands
 | Command | Description | Syntax |
-| ----------- | ----------- | ----------- |
+| ------- | ----------------------------- | ------------------------------- |
 | help | Tells you the description of a command | help <Command|ALL> |
 | Give | Gives you an amount of a specified item | give <Name|ID|ALL> <Amount=1> |
 | Give | Gives you an amount of a specified item | give <Name|ID|ALL> <Amount=1> |
