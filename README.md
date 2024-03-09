@@ -8,7 +8,7 @@
 | Command | Abbreviation | Description | Syntax |
 | ------- | ------------ | ----------- | ------ |
 | help | hlp | Tells you the description of a command | help <Command \| ALL> |
-| give | giv | Gives you an amount of a specified item \n(Replace spaces in names with an underscore) | give <Name \| ID \| ALL> <Amount=1> |
+| give | giv | Gives you an amount of a specified item (Replace spaces in names with an underscore) | give <Name \| ID \| ALL> <Amount=1> |
 | list | lst | List the Name and ID of an item or all Items | list <Name \| ID \| ALL> |
 | credits | crdt | Change credits | credits <+ \| - \| * \| / \| => <Value=1> |
 
