@@ -1,16 +1,7 @@
-﻿using Outpath_Modding.API.Enums;
-using Outpath_Modding.API.Features;
-using Outpath_Modding.API.Features.Item;
-using Outpath_Modding.API.Mod;
-using Outpath_Modding.Events;
+﻿using Outpath_Modding.API.Mod;
 using Outpath_Modding.GameConsole;
 using Outpath_Modding.GameConsole.Components;
-using Outpath_Modding.Unity;
 using System;
-using System.IO;
-using System.Security.AccessControl;
-using static Outpath_Modding.API.Features.Item.CustomItemInfo;
-using static System.Net.Mime.MediaTypeNames;
 using Wh4I3sCommands.Commands;
 
 namespace Wh4I3sCommands

@@ -7,7 +7,7 @@ namespace Wh4I3sCommands.Commands
     {
         public string Command { get; set; } = "list";
         public string[] Abbreviate { get; set; } = new string[] { "lst" };
-        public string Description { get; set; } = "List the Name and ID of an item or all items.\n\tlist <Name|ID|ALL>";
+        public string Description { get; set; } = "List the Name and ID of an item or all items.\n\tSyntax: list <Name | ID | ALL>";
 
         public bool Execute(string[] args, out string reply)
         {

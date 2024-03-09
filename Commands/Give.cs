@@ -8,7 +8,7 @@ namespace Wh4I3sCommands.Commands
     {
         public string Command { get; set; } = "give";
         public string[] Abbreviate { get; set; } = new string[] { "giv" };
-        public string Description { get; set; } = "Gives you an amount of a specified item.\n\tgive <Name|ID|ALL> <Amount=1>";
+        public string Description { get; set; } = "Gives you an amount of a specified item.\n\tSyntax: give <Name | ID | ALL> <Amount=1>";
 
         public bool Execute(string[] args, out string reply)
         {

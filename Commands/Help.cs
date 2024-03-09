@@ -7,7 +7,7 @@ namespace Wh4I3sCommands.Commands
     {
         public string Command { get; set; } = "help";
         public string[] Abbreviate { get; set; } = new string[] { "hlp" };
-        public string Description { get; set; } = "Tells you the description of a command.\n\thelp <Command|ALL>";
+        public string Description { get; set; } = "Tells you the description of a command.\n\tSyntax: help <Command | ALL>";
 
         public bool Execute(string[] args, out string reply)
         {

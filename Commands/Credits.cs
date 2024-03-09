@@ -7,7 +7,7 @@ namespace Wh4I3sCommands.Commands
     {
         public string Command { get; set; } = "credits";
         public string[] Abbreviate { get; set; } = new string[] { "crdt" };
-        public string Description { get; set; } = "Change credits.\n\tcredits <+|-|*|/|=> <Value=1>";
+        public string Description { get; set; } = "Change credits.\n\tSyntax: credits <+ | - | * | / | => <Value=1>";
 
         public bool Execute(string[] args, out string reply)
         {
