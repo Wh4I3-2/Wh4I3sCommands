@@ -9,11 +9,11 @@
 - Tells you the description of a command.
 - Syntax: help <Command|ALL>
 ### Give: 
-Gives you an amount of a specified item.
-Syntax: give <Name|ID|ALL> <Amount=1>
+- Gives you an amount of a specified item.
+- Syntax: give <Name|ID|ALL> <Amount=1>
 ### List: 
-List the Name and ID of an item or all items.
-Syntax: list <Name|ID|ALL>
+- List the Name and ID of an item or all items.
+- Syntax: list <Name|ID|ALL>
 ### Credits: 
-Change credits.
-Syntax: credits <+|-|*|/|=> <Value=1>
+- Change credits.
+- Syntax: credits <+|-|*|/|=> <Value=1>
