@@ -5,7 +5,7 @@
 [![Contributors](https://img.shields.io/github/contributors/Wh4I3-2/Wh4I3sCommands?color=ffa55a&style=for-the-badge)](https://github.com/Wh4I3-2/Wh4I3sCommands/graphs/contributors)
 
 ## Commands
-###help:
+### help:
 `Tells you the description of a command.`
 `Syntax: help <Command|ALL>`
 ### give: 
