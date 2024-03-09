@@ -13,7 +13,7 @@
 | credits | Change credits | credits <+\|-\|*\|/\|=> <Value=1> |
 
 ## Installation
-**Requires [Outpath-Modding](https://github.com/MrAfitol/Outpath-Modding/) loader**
+**Requires having installed [Outpath-Modding](https://github.com/MrAfitol/Outpath-Modding/)**
 ### Windows
 1. Download the Wh4I3sCommands.dll file from a release of your choosing [here](https://github.com/Wh4I3-2/Wh4I3sCommands/releases) (Latest is recommended)
 2. Move the .dll file to the mods folder (eg: *\Steam\steamapps\common\Outpath\OutpathModding\Mods\)
