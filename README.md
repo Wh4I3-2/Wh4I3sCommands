@@ -5,7 +5,11 @@
 [![Contributors](https://img.shields.io/github/contributors/Wh4I3-2/Wh4I3sCommands?color=ffa55a&style=for-the-badge)](https://github.com/Wh4I3-2/Wh4I3sCommands/graphs/contributors)
 
 ## Commands
-### Help:
+| Command | Description | Syntax |
+| ----------- | ----------- | ----------- |
+| help | Tells you the description of a command | help <Command|ALL> |
+| Give | Gives you an amount of a specified item | give <Name|ID|ALL> <Amount=1> |
+###  Help:
 - Tells you the description of a command.
 - Syntax: help <Command|ALL>
 ### Give: 
