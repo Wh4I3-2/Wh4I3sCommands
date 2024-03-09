@@ -7,10 +7,10 @@
 ## Commands
 | Command | Description | Syntax |
 | ------- | ----------- | ------ |
-| help | Tells you the description of a command | help <Command|ALL>. |
-| Give | Gives you an amount of a specified item | give <Name|ID|ALL> <Amount=1>. |
-| Give | Gives you an amount of a specified item | give <Name|ID|ALL> <Amount=1>. |
-| Give | Gives you an amount of a specified item | give <Name|ID|ALL> <Amount=1>. |
+| help | Tells you the description of a command | help <Command|ALL> |
+| give | Gives you an amount of a specified item | give <Name|ID|ALL> <Amount=1> |
+| list | List the Name and ID of an item or all Items | list <Name|ID|ALL> |
+| credits | Change credits | credits <+|-|*|/|=> <Value=1> |
 ###  Help:
 - Tells you the description of a command.
 - Syntax: help <Command|ALL>
