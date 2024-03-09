@@ -6,8 +6,8 @@
 
 ## Commands
 ### Help:
-`Tells you the description of a command.`
-`Syntax: help <Command|ALL>`
+- Tells you the description of a command.
+- Syntax: help <Command|ALL>
 ### Give: 
 Gives you an amount of a specified item.
 Syntax: give <Name|ID|ALL> <Amount=1>
